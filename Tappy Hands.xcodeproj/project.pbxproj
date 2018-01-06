@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D0A03F01FF17AF1006E4F14 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0A03EF1FF17AF1006E4F14 /* StoreViewController.swift */; };
+		5D0A03F41FFBCF4D006E4F14 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0A03F31FFBCF4D006E4F14 /* StoreKit.framework */; };
+		5D0FAB2B1FFE62CA00C3905B /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0FAB2A1FFE62CA00C3905B /* iPad.storyboard */; };
 		5D65CCEE1FE6A513008F7D85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D65CCED1FE6A513008F7D85 /* AppDelegate.swift */; };
 		5D65CCF01FE6A513008F7D85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D65CCEF1FE6A513008F7D85 /* ViewController.swift */; };
 		5D65CCF31FE6A513008F7D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D65CCF11FE6A513008F7D85 /* Main.storyboard */; };
 		5D65CCF51FE6A513008F7D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D65CCF41FE6A513008F7D85 /* Assets.xcassets */; };
 		5D65CCF81FE6A513008F7D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D65CCF61FE6A513008F7D85 /* LaunchScreen.storyboard */; };
+		5D65CD001FE6C75F008F7D85 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D65CCFF1FE6C75F008F7D85 /* GameViewController.swift */; };
+		5D65CD021FE75539008F7D85 /* endViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D65CD011FE75539008F7D85 /* endViewController.swift */; };
+		9B4A1C9556FFC2105BF9C753 /* Pods_Tappy_Hands.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7370A3405BEADCA4F395F11A /* Pods_Tappy_Hands.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182AB2DF7C65B7EE62F9F596 /* Pods-Tappy Hands.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tappy Hands.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tappy Hands/Pods-Tappy Hands.release.xcconfig"; sourceTree = "<group>"; };
+		5D0A03EF1FF17AF1006E4F14 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		5D0A03F31FFBCF4D006E4F14 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		5D0FAB2A1FFE62CA00C3905B /* iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
 		5D65CCEA1FE6A513008F7D85 /* Tappy Hands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tappy Hands.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D65CCED1FE6A513008F7D85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D65CCEF1FE6A513008F7D85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		5D65CCF41FE6A513008F7D85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D65CCF71FE6A513008F7D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D65CCF91FE6A513008F7D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D65CCFF1FE6C75F008F7D85 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5D65CD011FE75539008F7D85 /* endViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endViewController.swift; sourceTree = "<group>"; };
+		5D94C55F1FEA1FC200E04B03 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		5D94C5601FEC048400E04B03 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7370A3405BEADCA4F395F11A /* Pods_Tappy_Hands.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tappy_Hands.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6F1C7E50C4CD6879A5090E /* Pods-Tappy Hands.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tappy Hands.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tappy Hands/Pods-Tappy Hands.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B4A1C9556FFC2105BF9C753 /* Pods_Tappy_Hands.framework in Frameworks */,
+				5D0A03F41FFBCF4D006E4F14 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +58,8 @@
 			children = (
 				5D65CCEC1FE6A513008F7D85 /* Tappy Hands */,
 				5D65CCEB1FE6A513008F7D85 /* Products */,
+				5D94C55E1FEA1FC200E04B03 /* Frameworks */,
+				74B587C9A5FCDF372BF1B9D8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +76,36 @@
 			children = (
 				5D65CCED1FE6A513008F7D85 /* AppDelegate.swift */,
 				5D65CCEF1FE6A513008F7D85 /* ViewController.swift */,
-				5D65CCF11FE6A513008F7D85 /* Main.storyboard */,
-				5D65CCF41FE6A513008F7D85 /* Assets.xcassets */,
+				5D65CCFF1FE6C75F008F7D85 /* GameViewController.swift */,
+				5D65CD011FE75539008F7D85 /* endViewController.swift */,
+				5D0A03EF1FF17AF1006E4F14 /* StoreViewController.swift */,
 				5D65CCF61FE6A513008F7D85 /* LaunchScreen.storyboard */,
+				5D65CCF11FE6A513008F7D85 /* Main.storyboard */,
+				5D0FAB2A1FFE62CA00C3905B /* iPad.storyboard */,
+				5D65CCF41FE6A513008F7D85 /* Assets.xcassets */,
 				5D65CCF91FE6A513008F7D85 /* Info.plist */,
 			);
 			path = "Tappy Hands";
+			sourceTree = "<group>";
+		};
+		5D94C55E1FEA1FC200E04B03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D0A03F31FFBCF4D006E4F14 /* StoreKit.framework */,
+				5D94C5601FEC048400E04B03 /* MessageUI.framework */,
+				5D94C55F1FEA1FC200E04B03 /* Social.framework */,
+				7370A3405BEADCA4F395F11A /* Pods_Tappy_Hands.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74B587C9A5FCDF372BF1B9D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F1C7E50C4CD6879A5090E /* Pods-Tappy Hands.debug.xcconfig */,
+				182AB2DF7C65B7EE62F9F596 /* Pods-Tappy Hands.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D65CCFC1FE6A513008F7D85 /* Build configuration list for PBXNativeTarget "Tappy Hands" */;
 			buildPhases = (
+				D68B8568566B6F3BE87C3FC4 /* [CP] Check Pods Manifest.lock */,
 				5D65CCE61FE6A513008F7D85 /* Sources */,
 				5D65CCE71FE6A513008F7D85 /* Frameworks */,
 				5D65CCE81FE6A513008F7D85 /* Resources */,
+				08694F434113BF407E71A472 /* [CP] Embed Pods Frameworks */,
+				A72DA1F3E3775566702CBBE4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +144,11 @@
 					5D65CCE91FE6A513008F7D85 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D0FAB2B1FFE62CA00C3905B /* iPad.storyboard in Resources */,
 				5D65CCF81FE6A513008F7D85 /* LaunchScreen.storyboard in Resources */,
 				5D65CCF51FE6A513008F7D85 /* Assets.xcassets in Resources */,
 				5D65CCF31FE6A513008F7D85 /* Main.storyboard in Resources */,
@@ -131,12 +184,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08694F434113BF407E71A472 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tappy Hands/Pods-Tappy Hands-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A72DA1F3E3775566702CBBE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tappy Hands/Pods-Tappy Hands-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D68B8568566B6F3BE87C3FC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tappy Hands-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D65CCE61FE6A513008F7D85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D0A03F01FF17AF1006E4F14 /* StoreViewController.swift in Sources */,
+				5D65CD021FE75539008F7D85 /* endViewController.swift in Sources */,
 				5D65CCF01FE6A513008F7D85 /* ViewController.swift in Sources */,
+				5D65CD001FE6C75F008F7D85 /* GameViewController.swift in Sources */,
 				5D65CCEE1FE6A513008F7D85 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +379,7 @@
 		};
 		5D65CCFD1FE6A513008F7D85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE6F1C7E50C4CD6879A5090E /* Pods-Tappy Hands.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +395,7 @@
 		};
 		5D65CCFE1FE6A513008F7D85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 182AB2DF7C65B7EE62F9F596 /* Pods-Tappy Hands.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
